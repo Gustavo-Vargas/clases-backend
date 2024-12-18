@@ -36,6 +36,7 @@ app.use(
 			"http://localhost:4000",
 			"http://localhost",
 			process.env.BASE_URL,
+			process.env.BASE_URL_FRONTEND,
 		],
 		credentials: true,
 	})
